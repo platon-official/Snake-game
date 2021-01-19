@@ -327,8 +327,6 @@ def init():
                     main_game.snake.mute_main_music()
                 elif event.key == pygame.K_p:
                     main_game.pause()
-                elif event.key == pygame.K_q:
-                    main_game.final_win_game()
         main_game.draw_elements()
         clock.tick(FPS)
         pygame.display.update()
